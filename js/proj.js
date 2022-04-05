@@ -13,6 +13,7 @@ function expProj(projNum,btmNum,projHeight) {
     document.getElementById(btmNum).style.display = "none";
 }
 
+
 //minimize project
 function minProj(projNum,btmNum){
     document.getElementById(projNum).style.backgroundColor = "white";
@@ -24,7 +25,39 @@ function minProj(projNum,btmNum){
     }
     document.getElementById(btmNum).style.display = "flex";
 }
+//deal with screen resize 
+window.addEventListener('resize',checkSize);
 
+function checkSize(){
+    if (screen.width < 600){
+        if (document.getElementById("projOne").style.height != 80){
+            document.getElementById("projOne").style.height = "80px";
+        }
+        if (document.getElementById("projTwo").style.height != 80){
+            document.getElementById("projTwo").style.height = "80px";
+        }
+        if (document.getElementById("projThree").style.height != 80){
+            document.getElementById("projThree").style.height = "80px";
+        }
+        if (document.getElementById("projFour").style.height != 80){
+            document.getElementById("projFour").style.height = "80px";
+        }
+    }
+    else {
+        if (document.getElementById("projOne").style.height != 150){
+            document.getElementById("projOne").style.height = "150px";
+        }
+        if (document.getElementById("projTwo").style.height != 150){
+            document.getElementById("projTwo").style.height = "150px";
+        }
+        if (document.getElementById("projThree").style.height != 150){
+            document.getElementById("projThree").style.height = "150px";
+        }
+        if (document.getElementById("projFour").style.height != 150){
+            document.getElementById("projFour").style.height = "150px";
+        }
+    }
+}
 //project one
 var expBtmOne = document.getElementById("expBtmOne");
 
