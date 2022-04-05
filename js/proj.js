@@ -26,7 +26,7 @@ var expBtmOne = document.getElementById("expBtmOne");
 
 expBtmOne.addEventListener('mouseenter',function(){projEnterHover("projOne")});
 expBtmOne.addEventListener('mouseleave',function(){projLeaveHover("projOne")});
-expBtmOne.addEventListener('click',function(){expProj("projOne","expBtmOne","810px")});
+expBtmOne.addEventListener('click',function(){expProj("projOne","expBtmOne","620px")});
 
 var minBtmOne = document.getElementById("minBtmOne");
 minBtmOne.addEventListener('mouseenter',function(){projEnterHover("projOne")});
