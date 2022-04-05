@@ -102,6 +102,7 @@
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: right;
 }
 .min-btm-box {
     display: flex;
@@ -117,7 +118,8 @@
     height: 30px;
     font-size: 20px;
     background-color: transparent;
-    border: none
+    border: none;
+    text-align: right;
 }
 .projTwo {
     height: 80px; 
