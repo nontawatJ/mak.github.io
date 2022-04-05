@@ -1,13 +1,13 @@
 body {
     background-color: #c8d3f6;
-    font-family: 'cursive';
+    font-family: 'serif';
     flex-direction: column;
 }
 
 
 @media screen and (min-width:641px){
     body {
-        font-family: 'Brush Script MT', cursive;
+        font-family: 'cursive';
     }
 }
 

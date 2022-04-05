@@ -3,7 +3,6 @@
     align-items: center;
     height: 250px;
     width: 100%;
-    background-color: red;
 }
 .hi-img {
     height: 150px;
@@ -17,7 +16,6 @@
     margin-left: 5px;
     width: 250px;
     height: 250px;
-    background-color: white;
 }
 .hi-text h1 {
     font-size: 40px;
