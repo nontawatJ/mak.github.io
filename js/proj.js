@@ -8,6 +8,7 @@ function projLeaveHover(projNum) {
 
 //expanding project
 function expProj(projNum,btmNum,projHeight) {
+    document.getElementById(projNum).style.backgroundColor = "white";
     document.getElementById(projNum).style.height = projHeight;
     document.getElementById(projNum).style.transition = "height 1s, transform 1s";
     document.getElementById(btmNum).style.display = "none";

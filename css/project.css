@@ -43,20 +43,31 @@
 }
 .projTitle {
     display: flex;
+    justify-content: center;
+}
+.proj-title-left {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 8px;
+    width: 200px;
+    height: 80px;
 }
 .proj-title {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 125%;
     color: rgb(69, 28, 69);
 }
 .proj-subTitle{
     margin-top:-12px;
     margin-left: 10px;
-    font-size: 8px;
+    font-size: 50%;
     color: rgb(127, 52, 127);
+}
+.proj-title-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
 }
 .proj-expand {
     position: relative;
@@ -75,16 +86,14 @@
     color: rgb(119, 12, 169);
 }
 .exp-btm {
-    position: relative;
     display: flex;
+    justify-content: right;
     width: 80px;
     height: 40px;
-    font-size: 30px;
-    transform: rotate(180deg);
-    top: -50px;
-    left: 180px;
+    font-size: 20px;
+    background-color: transparent;
     cursor: pointer;
-    
+    border: none;
 }
 .min-btm {
     position: relative;
