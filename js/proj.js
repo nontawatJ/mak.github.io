@@ -38,7 +38,7 @@ var expBtmTwo = document.getElementById("expBtmTwo");
 
 expBtmTwo.addEventListener('mouseenter',function(){projEnterHover("projTwo")});
 expBtmTwo.addEventListener('mouseleave',function(){projLeaveHover("projTwo")});
-expBtmTwo.addEventListener('click',function(){expProj("projTwo","expBtmTwo","840px")});
+expBtmTwo.addEventListener('click',function(){expProj("projTwo","expBtmTwo","auto")});
 
 var minBtmTwo = document.getElementById("minBtmTwo");
 minBtmTwo.addEventListener('mouseenter',function(){projEnterHover("projTwo")});
@@ -50,7 +50,7 @@ var expBtmThree = document.getElementById("expBtmThree");
 
 expBtmThree.addEventListener('mouseenter',function(){projEnterHover("projThree")});
 expBtmThree.addEventListener('mouseleave',function(){projLeaveHover("projThree")});
-expBtmThree.addEventListener('click',function(){expProj("projThree","expBtmThree","720px")});
+expBtmThree.addEventListener('click',function(){expProj("projThree","expBtmThree","auto")});
 
 var minBtmThree = document.getElementById("minBtmThree");
 minBtmThree.addEventListener('mouseenter',function(){projEnterHover("projThree")});
@@ -62,7 +62,7 @@ var expBtmFour = document.getElementById("expBtmFour");
 
 expBtmFour.addEventListener('mouseenter',function(){projEnterHover("projFour")});
 expBtmFour.addEventListener('mouseleave',function(){projLeaveHover("projFour")});
-expBtmFour.addEventListener('click',function(){expProj("projFour","expBtmFour","815px")});
+expBtmFour.addEventListener('click',function(){expProj("projFour","expBtmFour","auto")});
 
 var minBtmFour = document.getElementById("minBtmFour");
 minBtmFour.addEventListener('mouseenter',function(){projEnterHover("projFour")});
