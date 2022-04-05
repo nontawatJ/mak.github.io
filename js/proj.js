@@ -29,19 +29,19 @@ function minProj(projNum,btmNum){
 window.addEventListener('resize',checkSize);
 
 function checkSize(){
-    if (screen.width < 600){
-        
+    if (window.innerWidth < 600){
+        if (document.getElementById("projOne").style.height == 150){
             document.getElementById("projOne").style.height = "80px";
-        
-        
+        }
+        if (document.getElementById("projTwo").style.height == 150){
             document.getElementById("projTwo").style.height = "80px";
-        
-        
+        }
+        if (document.getElementById("projThree").style.height == 150){
             document.getElementById("projThree").style.height = "80px";
-        
-       
+        }
+        if (document.getElementById("projFour").style.height == 150){
             document.getElementById("projFour").style.height = "80px";
-        
+        }
     }
 }
 //project one
