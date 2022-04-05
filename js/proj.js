@@ -25,8 +25,25 @@ function minProj(projNum,btmNum){
     }
     document.getElementById(btmNum).style.display = "flex";
 }
+//deal with screen resize 
+window.addEventListener('resize',checkSize);
 
-
+function checkSize(){
+    if (screen.width < 600){
+        
+            document.getElementById("projOne").style.height = "80px";
+        
+        
+            document.getElementById("projTwo").style.height = "80px";
+        
+        
+            document.getElementById("projThree").style.height = "80px";
+        
+       
+            document.getElementById("projFour").style.height = "80px";
+        
+    }
+}
 //project one
 var expBtmOne = document.getElementById("expBtmOne");
 
