@@ -30,16 +30,16 @@ window.addEventListener('resize',checkSize);
 
 function checkSize(){
     if (screen.width < 600){
-        if (document.getElementById("projOne").style.height == 150){
+        if (document.getElementById("projOne").style.height < 160){
             document.getElementById("projOne").style.height = "80px";
         }
-        if (document.getElementById("projTwo").style.height == 150){
+        if (document.getElementById("projTwo").style.height < 160){
             document.getElementById("projTwo").style.height = "80px";
         }
-        if (document.getElementById("projThree").style.height == 150){
+        if (document.getElementById("projThree").style.height < 160){
             document.getElementById("projThree").style.height = "80px";
         }
-        if (document.getElementById("projFour").style.height == 150){
+        if (document.getElementById("projFour").style.height < 160){
             document.getElementById("projFour").style.height = "80px";
         }
     }
