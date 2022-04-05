@@ -25,25 +25,8 @@ function minProj(projNum,btmNum){
     }
     document.getElementById(btmNum).style.display = "flex";
 }
-//deal with screen resize 
-window.addEventListener('resize',checkSize);
 
-function checkSize(){
-    if (screen.width < 600){
-        if (document.getElementById("projOne").style.height < 160){
-            document.getElementById("projOne").style.height = "80px";
-        }
-        if (document.getElementById("projTwo").style.height < 160){
-            document.getElementById("projTwo").style.height = "80px";
-        }
-        if (document.getElementById("projThree").style.height < 160){
-            document.getElementById("projThree").style.height = "80px";
-        }
-        if (document.getElementById("projFour").style.height < 160){
-            document.getElementById("projFour").style.height = "80px";
-        }
-    }
-}
+
 //project one
 var expBtmOne = document.getElementById("expBtmOne");
 
