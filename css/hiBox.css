@@ -1,7 +1,8 @@
 .hi-box {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 200px;
     width: 100%;
 }
 .hi-img {
@@ -14,25 +15,26 @@
 }
 .hi-text {
     margin-left: 5px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 .hi-text h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 .hi-text h2 {
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(90, 12, 90);
 }
 .hi-text h4 {
-    font-size: 16px;
+    margin-top: -3px;
+    font-size: 15px;
     color: rgb(90, 12, 90);
 }
 
 
 
-@media screen and (min-width:641px) {
+@media screen and (min-width:600px) {
     .hi-box {
         display: flex;
         justify-content: center;
