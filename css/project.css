@@ -74,6 +74,7 @@
     width: 70px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: red;
 }
 .proj-expand {
     margin-top: -12px;
@@ -91,13 +92,10 @@
     color: rgb(119, 12, 169);
 }
 .exp-btm {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 70px;
+    width: 60px;
     height: 80px;
     font-size: 20px;
-    background-color: transparent;
+    background-color: yellow;
     cursor: pointer;
     border: none;
     border-top-right-radius: 10px;
