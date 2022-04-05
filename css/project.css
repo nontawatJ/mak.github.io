@@ -45,7 +45,7 @@
 }
 .projTitle {
     display: flex;
-    justify-content: center;
+    background-color: grey;
 }
 .proj-title-left {
     display: flex;
