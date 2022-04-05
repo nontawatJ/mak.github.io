@@ -7,8 +7,9 @@ function projLeaveHover(projNum) {
 }
 //expanding project
 function expProj(projNum,btmNum,projHeight) {
+    document.getElementById(projNum).className = "project-desc " + "expand";
     document.getElementById(projNum).style.backgroundColor = "white";
-    document.getElementById(projNum).style.height = projHeight;
+    // document.getElementById(projNum).style.height = projHeight;
     document.getElementById(projNum).style.transition = "height 1s, transform 1s";
     document.getElementById(btmNum).style.display = "none";
 }
@@ -16,34 +17,18 @@ function expProj(projNum,btmNum,projHeight) {
 
 //minimize project
 function minProj(projNum,btmNum){
+    document.getElementById(projNum).className = "project-desc " + projNum;
     document.getElementById(projNum).style.backgroundColor = "white";
-    if (screen.width > 599){
-        document.getElementById(projNum).style.height = "150px";
-    }
-    else {
-        document.getElementById(projNum).style.height = "80px";
-    }
+    // if (window.innerWidth > 599){
+    //     document.getElementById(projNum).style.height = "150px";
+    // }
+    // else {
+    //     document.getElementById(projNum).style.height = "80px";
+    // }
     document.getElementById(btmNum).style.display = "flex";
 }
-//deal with screen resize 
-window.addEventListener('resize',checkSize);
+ 
 
-function checkSize(){
-    if (window.innerWidth < 600){
-        
-            document.getElementById("projOne").style.height = "80px";
-        
-        
-            document.getElementById("projTwo").style.height = "80px";
-       
-        
-            document.getElementById("projThree").style.height = "80px";
-        
-        
-            document.getElementById("projFour").style.height = "80px";
-        
-    }
-}
 //project one
 var expBtmOne = document.getElementById("expBtmOne");
 
