@@ -1,6 +1,9 @@
 body {
+    display: flex;
+    align-items: center;
     background-color: #c8d3f6;
     font-family: 'cursive';
+    flex-direction: column;
 }
 
 
