@@ -25,7 +25,7 @@ var expBtmOne = document.getElementById("expBtmOne");
 
 expBtmOne.addEventListener('mouseenter',function(){projEnterHover("projOne")});
 expBtmOne.addEventListener('mouseleave',function(){projLeaveHover("projOne")});
-expBtmOne.addEventListener('click',function(){expProj("projOne","expBtmOne","610px")});
+expBtmOne.addEventListener('click',function(){expProj("projOne","expBtmOne","810px")});
 
 var minBtmOne = document.getElementById("minBtmOne");
 minBtmOne.addEventListener('mouseenter',function(){projEnterHover("projOne")});
@@ -37,7 +37,7 @@ var expBtmTwo = document.getElementById("expBtmTwo");
 
 expBtmTwo.addEventListener('mouseenter',function(){projEnterHover("projTwo")});
 expBtmTwo.addEventListener('mouseleave',function(){projLeaveHover("projTwo")});
-expBtmTwo.addEventListener('click',function(){expProj("projTwo","expBtmTwo","640px")});
+expBtmTwo.addEventListener('click',function(){expProj("projTwo","expBtmTwo","840px")});
 
 var minBtmTwo = document.getElementById("minBtmTwo");
 minBtmTwo.addEventListener('mouseenter',function(){projEnterHover("projTwo")});
@@ -49,7 +49,7 @@ var expBtmThree = document.getElementById("expBtmThree");
 
 expBtmThree.addEventListener('mouseenter',function(){projEnterHover("projThree")});
 expBtmThree.addEventListener('mouseleave',function(){projLeaveHover("projThree")});
-expBtmThree.addEventListener('click',function(){expProj("projThree","expBtmThree","520px")});
+expBtmThree.addEventListener('click',function(){expProj("projThree","expBtmThree","720px")});
 
 var minBtmThree = document.getElementById("minBtmThree");
 minBtmThree.addEventListener('mouseenter',function(){projEnterHover("projThree")});
@@ -61,7 +61,7 @@ var expBtmFour = document.getElementById("expBtmFour");
 
 expBtmFour.addEventListener('mouseenter',function(){projEnterHover("projFour")});
 expBtmFour.addEventListener('mouseleave',function(){projLeaveHover("projFour")});
-expBtmFour.addEventListener('click',function(){expProj("projFour","expBtmFour","615px")});
+expBtmFour.addEventListener('click',function(){expProj("projFour","expBtmFour","815px")});
 
 var minBtmFour = document.getElementById("minBtmFour");
 minBtmFour.addEventListener('mouseenter',function(){projEnterHover("projFour")});
