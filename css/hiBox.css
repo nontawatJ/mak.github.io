@@ -32,14 +32,9 @@
     color: rgb(90, 12, 90);
 }
 
-
-
 @media screen and (min-width:600px) {
     .hi-box {
-        display: flex;
-        justify-content: center;
         height: 350px;
-        width: 100%;
     }
     .hi-img {
         height: 350px;
@@ -50,8 +45,7 @@
         width: 300px;
     }
     .hi-text {
-        margin-left: 25px;
-        width: 600px;
+        width: 500px;
         height: 350px;
     }
     .hi-text h1 {
@@ -60,11 +54,9 @@
      .hi-text h2 {
         margin-top: -20px;
         font-size: 25px;
-        color: rgb(90, 12, 90);
     }
     .hi-text h4 {
         font-size: 18px;
         margin-right: 20px;
-        color: rgb(90, 12, 90);
     } 
 }

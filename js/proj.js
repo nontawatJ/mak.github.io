@@ -5,7 +5,6 @@ function projEnterHover(projNum) {
 function projLeaveHover(projNum) {
     document.getElementById(projNum).style.backgroundColor = "white";
 }
-
 //expanding project
 function expProj(projNum,btmNum,projHeight) {
     document.getElementById(projNum).style.backgroundColor = "white";
@@ -17,7 +16,12 @@ function expProj(projNum,btmNum,projHeight) {
 //minimize project
 function minProj(projNum,btmNum){
     document.getElementById(projNum).style.backgroundColor = "white";
-    document.getElementById(projNum).style.height = "80px";
+    if (screen.width > 599){
+        document.getElementById(projNum).style.height = "150px";
+    }
+    else {
+        document.getElementById(projNum).style.height = "80px";
+    }
     document.getElementById(btmNum).style.display = "flex";
 }
 
