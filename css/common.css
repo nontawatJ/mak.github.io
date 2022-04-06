@@ -12,7 +12,9 @@ footer {
 footer p {
     text-align: center;
 }
-
+a { 
+    color: blue;
+}
 /* @media screen and (min-width:600px){
     body {
         font-family: 'Brush Script MT', cursive;
