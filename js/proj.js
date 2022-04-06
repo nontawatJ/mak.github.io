@@ -9,7 +9,6 @@ function projLeaveHover(projNum) {
 function expProj(projNum,btmNum,projHeight) {
     document.getElementById(projNum).className = "project-desc " + "expand";
     document.getElementById(projNum).style.backgroundColor = "white";
-    // document.getElementById(projNum).style.height = projHeight;
     document.getElementById(projNum).style.transition = "height 1s, transform 1s";
     document.getElementById(btmNum).style.display = "none";
 }
@@ -19,12 +18,6 @@ function expProj(projNum,btmNum,projHeight) {
 function minProj(projNum,btmNum){
     document.getElementById(projNum).className = "project-desc " + projNum;
     document.getElementById(projNum).style.backgroundColor = "white";
-    // if (window.innerWidth > 599){
-    //     document.getElementById(projNum).style.height = "150px";
-    // }
-    // else {
-    //     document.getElementById(projNum).style.height = "80px";
-    // }
     document.getElementById(btmNum).style.display = "flex";
 }
  
