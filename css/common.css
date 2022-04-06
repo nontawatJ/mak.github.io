@@ -15,6 +15,11 @@ footer p {
 a { 
     color: blue;
 }
+@media only screen and (min-width:700px){
+    footer p {
+        font-size: 20px;
+    }
+}
 /* @media screen and (min-width:600px){
     body {
         font-family: 'Brush Script MT', cursive;
