@@ -15,8 +15,9 @@
     font-size: 35px;
 }
 .contact-info h2 {
-    margin-top: -5px;
-    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
     color: rgb(90, 12, 90);
 }
 .contact-img {
