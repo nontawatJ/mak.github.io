@@ -11,7 +11,7 @@
 }
 .techSkill-title-left {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 100px;
     width: 170px;
@@ -29,4 +29,56 @@
 .techSkill-title-right img {
     height: 100%;
     width: 100%;
+}
+
+.techSkill-minimize {
+    height: 80px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.techSkillTitle {
+    display: flex;
+}
+.techSkill-desc {
+    width: 270px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.techSkill-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.techSkill-title {  
+    margin-left: 20px;
+    font-size: 180%;
+    color: rgb(69, 28, 69);
+}
+.techSkill-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.techSkill-expand li{
+    margin-top: 5px;
+    margin-left:30px;
+    font-size: 20px;
+}
+.languages {
+    height: 80px;
+    overflow: hidden;
+}
+.tools {
+    height: 80px;
+    overflow: hidden;
 }
