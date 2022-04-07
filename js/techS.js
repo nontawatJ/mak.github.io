@@ -47,3 +47,15 @@ var minBtmTools = document.getElementById("minBtmTools");
 minBtmTools.addEventListener('mouseenter',function(){techSkillEnterHover("tools")});
 minBtmTools.addEventListener('mouseleave',function(){techSkillLeaveHover("tools")});
 minBtmTools.addEventListener('click',function(){minTechSkill("tools","expBtmTools","minBtmTools")});
+
+//techSkill frameworks
+var expBtmFrameworks = document.getElementById("expBtmFrameworks");
+
+expBtmFrameworks.addEventListener('mouseenter',function(){techSkillEnterHover("frameworks")});
+expBtmFrameworks.addEventListener('mouseleave',function(){techSkillLeaveHover("frameworks")});
+expBtmFrameworks.addEventListener('click',function(){expTechSkill("frameworks","expBtmFrameworks","minBtmFrameworks")});
+
+var minBtmFrameworks = document.getElementById("minBtmFrameworks");
+minBtmFrameworks.addEventListener('mouseenter',function(){techSkillEnterHover("frameworks")});
+minBtmFrameworks.addEventListener('mouseleave',function(){techSkillLeaveHover("frameworks")});
+minBtmFrameworks.addEventListener('click',function(){minTechSkill("frameworks","expBtmFrameworks","minBtmFrameworks")});

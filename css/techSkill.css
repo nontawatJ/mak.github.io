@@ -55,7 +55,6 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-
 .techSkill-title {  
     margin-left: 20px;
     font-size: 180%;
@@ -81,4 +80,69 @@
 .tools {
     height: 80px;
     overflow: hidden;
+}
+.frameworks {
+    height: 80px;
+    overflow: hidden;
+}
+@media only screen and (min-width:700px) {
+    .techSkill-heading {
+        height: 300px;
+        width: 100%;
+    }
+    .techSkill-title-left {
+        height: 300px;
+        width: 450px;
+    }
+    .techSkill-title-left h1 {
+        margin-left: 100px;
+        font-size: 70px;
+    }
+    
+    .techSkill-title-right {
+        width: 400px;
+        height: 300px;
+    }
+        
+    .techSkill-minimize {
+        height: 150px;
+        border-radius: 15px;
+    }
+    .techSkill-desc {
+        width: 650px;
+        border-radius: 15px;
+    }
+    .techSkill-left {
+        width: 500px;
+        height: 150px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .techSkill-title {  
+        margin-left: 40px;
+        font-size: 255%;
+    }
+    .techSkill-right {
+        width: 150px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .techSkill-expand li{
+        margin-top: 10px;
+        margin-left:50px;
+        font-size: 30px;
+    }
+    .languages {
+        height: 150px;
+        overflow: hidden;
+    }
+    .tools {
+        height: 150px;
+        overflow: hidden;
+    }
+    .frameworks {
+        height: 150px;
+        overflow: hidden;
+    }
+        
 }
