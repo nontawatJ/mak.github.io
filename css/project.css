@@ -72,13 +72,8 @@
 .proj-expand {
     margin-top: -12px;
 }
-
 .proj-purpose {
     font-size: 13px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.features  {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -176,11 +171,6 @@
         font-size: 25px;
         margin-left: 50px;
         margin-right: 50px;
-    }
-    .features{
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 25px;
     }
     .feature  {
         margin-top: 10px;
