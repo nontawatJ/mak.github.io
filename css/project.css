@@ -78,11 +78,11 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-.proj-expand h3 {
+.feature  {
     margin-left: 20px;
     margin-right: 20px;
 }
-.proj-expand li {
+.feature li {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -177,12 +177,12 @@
         margin-left: 50px;
         margin-right: 50px;
     }
-    .proj-expand h3 {
+    .features{
         margin-left: 50px;
         margin-right: 50px;
         font-size: 25px;
     }
-    .proj-expand li {
+    .feature  {
         margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
