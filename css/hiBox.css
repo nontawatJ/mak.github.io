@@ -4,6 +4,7 @@
     align-items: center;
     height: 200px;
     width: 100%;
+    margin: 10px;
 }
 .hi-img {
     height: 150px;
@@ -11,10 +12,9 @@
 }
 .hi-img img {
     height:100%;
-    width: 100px;
+    width: 100%;
 }
 .hi-text {
-    margin-left: 5px;
     width: 200px;
     height: 200px;
 }
@@ -32,7 +32,7 @@
     color: rgb(90, 12, 90);
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:900px) {
     .hi-box {
         height: 350px;
     }
@@ -42,7 +42,7 @@
     }
     .hi-img img {
         height:100%;
-        width: 300px;
+        width: 100%;
     }
     .hi-text {
         width: 500px;

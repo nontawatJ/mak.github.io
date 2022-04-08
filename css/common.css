@@ -1,7 +1,11 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #c8d3f6;
     font-family: 'serif';
     flex-direction: column;
+
 }
 footer {
     margin-top: 80px;
@@ -16,8 +20,8 @@ a {
     color: blue;
 }
 .exp-btm {
-    width: 60px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     font-size: 20px;
     background-color: transparent;
     cursor: pointer;
@@ -29,8 +33,8 @@ a {
     display:inline;
 }
 .min-btm {
-    width: 60px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     font-size: 20px;
     background-color: transparent;
     cursor: pointer;
@@ -41,9 +45,15 @@ a {
     color: rgb(147, 145, 145);
     display:none;
 }
-@media only screen and (min-width:700px){
+@media only screen and (min-width:900px){
     footer p {
         font-size: 20px;
+    }
+    .exp-btm {
+        font-size: 40px;
+    }
+    .min-btm{
+        font-size: 40px;
     }
 }
 
